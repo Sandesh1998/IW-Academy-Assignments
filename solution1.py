@@ -1,3 +1,4 @@
+# 1.Write a Python program to count the number of characters (characterfrequency) in a string.
 def calculateCharacter(strInput):
     character = {}
     for i in strInput:
