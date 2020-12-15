@@ -1,4 +1,4 @@
-# 18.Write a Python program to check whether a given string is number or notusing Lambda.
+# 18.Write a Python program to check whether a given string is number or not using Lambda.
 num = lambda s: s.replace('.', '', 1).isdigit()
 print(num('1234'))
 print(num('00000'))
